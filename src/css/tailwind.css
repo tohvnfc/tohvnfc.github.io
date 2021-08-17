@@ -1,0 +1,4 @@
+/* USED TO EXTRACT CSS RULES TO SRC/STYLE.CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
