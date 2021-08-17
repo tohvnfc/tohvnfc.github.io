@@ -4,14 +4,15 @@
   "description": "Trang Web Chính Thức của The Owl House Vietnam",
   "main": "tailwind.config.js",
   "dependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "devDependencies": {
     "autoprefixer": "^10.3.1",
-    "fsevents": "^2.3.2",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
   },
-  "devDependencies": {},
   "scripts": {
-    "build:tailwind": "tailwindcss build -i src/css/style.css -o css/style.css"
+    "build:tailwind": "tailwindcss build -i src/css/tailwind.css -o css/style.css && cp src/index.html index.html"
   },
   "repository": {
     "type": "git",
