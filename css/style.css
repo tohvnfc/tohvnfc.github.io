@@ -1,3 +1,5 @@
+/* USED TO EXTRACT CSS RULES TO SRC/STYLE.CSS */
+
 /* ! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -633,6 +635,11 @@ video {
   right: 0px;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -653,12 +660,8 @@ video {
   justify-content: center;
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-gradient-to-l {
-  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .px-4 {
@@ -678,15 +681,6 @@ video {
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.hover\:from-yellow-400:hover {
-  --tw-gradient-from: #fbbf24;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
-}
-
-.hover\:to-yellow-500:hover {
-  --tw-gradient-to: #f59e0b;
 }
 
 .hover\:text-white:hover {
