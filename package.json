@@ -2,9 +2,16 @@
   "name": "tohvnfc.github.io",
   "version": "1.0.0",
   "description": "Trang Web Chính Thức của The Owl House Vietnam",
-  "main": "index.js",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "fsevents": "^2.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build:tailwinds": "tailwind build src/style.css -o css/style.css"
+    "build:tailwind": "tailwindcss build -i src/css/style.css -o public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/tohvnfc/tohvnfc.github.io/issues"
   },
-  "homepage": "https://github.com/tohvnfc/tohvnfc.github.io#readme",
-  "dependencies": {
-    "tailwindcss": "^2.2.7"
-  }
+  "homepage": "https://github.com/tohvnfc/tohvnfc.github.io#readme"
 }
