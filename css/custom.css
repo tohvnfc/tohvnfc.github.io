@@ -1,0 +1,18 @@
+/* Custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&family=Space+Grotesk&family=Lato&display=swap');
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.merri {
+    font-family: 'Merriweather', serif;
+}
+
+.space-grotesk {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
