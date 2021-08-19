@@ -2,14 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom CSS */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&display=swap');
-
-.roboto {
-    font-family: 'Roboto Slab', serif;
-}
-
-.merri {
-    font-family: 'Merriweather', serif;
-}
