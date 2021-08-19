@@ -12,7 +12,7 @@
     "tailwindcss": "^2.2.7"
   },
   "scripts": {
-    "build:tailwind": "tailwindcss build -i src/css/tailwind.css -o css/style.css && cp src/index.html index.html"
+    "build:tailwind": "tailwindcss build -i src/css/tailwind.css -o css/style.css && cp src/css/custom.css css/custom.css && cp src/index.html index.html"
   },
   "repository": {
     "type": "git",
