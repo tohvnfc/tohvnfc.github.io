@@ -5,7 +5,7 @@ module.exports = {
         enabled: true,
         content: ['src/index.html'],
     },
-    darkMode: 'class', // or 'media' or 'class'
+    darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},
     },
