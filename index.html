@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body class="bg-gray-200">
+<body class="bg-gray-100">
 
-    <header class="fixed top-0 left-0 right-0 bg-white">
+    <header class="fixed top-0 left-0 right-0 bg-white border-b-2">
         <nav class="container mx-auto uppercase my-1">
             <ul class="w-max flex flex-wrap items-center cursor-pointer space-grotesk">
                 <li class="px-3 py-2 text-gray-500 font-bold hover:text-black border-b-4 border-transparent hover:border-gray-400">
@@ -38,24 +38,98 @@
     </header>
 
     <main class="container mx-auto">
-        <div class="h-screen flex justify-center items-center">
+        <div class="h-screen flex flex-col justify-center items-center">
             <h1 class="capitalize text-center font-bold">
                 <span class="block mb-6 quicksand text-3xl lg:text-4xl text-gray-700 tracking-wide">
                     Đây là trang web chính thức của
                 </span>
-                <span class="inline-block pb-6 animate-pulse merri text-4xl lg:text-5xl
-                text-yellow-700 hover:text-blue-500 border-b-4 border-yellow-500">
+                <span class="inline-block mb-6 pb-6 merri text-4xl lg:text-5xl
+                text-yellow-700 hover:text-yellow-500 border-b-4 border-yellow-500">
                     <a href="https://fb.com/TOHVNFC" class="no-underline" title="Ghé thăm trang Facebook nha <3">
                         The Owl House Vietnam
                     </a>
                 </span>
             </h1>
+            
+            <!-- chevron-double-down icon | Heroicons.com -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-9 w-full cursor-move" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            </svg>
         </div>
     </main>
 
-    <footer class="">
+    <footer class="bg-white border-t-2">
+        <div class="container mx-auto py-5 flex justify-evenly items-center">
+            <div class="fill-current text-gray-500 ">
+                <div class="mb-2 font-bold uppercase text-black">
+                    Mạng xã hội
+                </div>
 
+                <!-- Github icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <a href="https://github.com/tohvnfc/tohvnfc.github.io">
+                        Github
+                    </a>
+                </div>
+
+                <!-- Facebook icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center hover:text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <a href="https://fb.com/TOHVNFC">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+
+            <div class="fill-current text-gray-500 ">
+                <div class="mb-2 font-bold uppercase text-black">
+                    Mạng xã hội
+                </div>
+
+                <!-- Github icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <a href="https://github.com/tohvnfc/tohvnfc.github.io">
+                        Github
+                    </a>
+                </div>
+
+                <!-- Facebook icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center hover:text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <a href="https://fb.com/TOHVNFC">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="flex items-center justify-center py-2">
+            <p class="lato text-gray-800">
+                Trang web và bản dịch phim thuộc về
+                <a href="https://fb.com/TOHVNFC" class="flex sm:inline items-center justify-center font-bold hover:text-yellow-600">
+                    The Owl House Vietnam
+                    <!-- Copyright icon: https://css.gg/copyright -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="inline-block text-black" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.392 10.4362L14.8106 9.0176C14.1031 8.38476 13.169 8 12.145 8C9.93588 8 8.14502 9.79086 8.14502 12C8.14502 14.2091 9.93588 16 12.145 16C13.2563 16 14.2617 15.5468 14.9866 14.8152L13.674 13.5026L13.4646 13.503C13.1124 13.8124 12.6506 14 12.145 14C11.0405 14 10.145 13.1046 10.145 12C10.145 10.8954 11.0405 10 12.145 10C12.6166 10 13.0501 10.1632 13.392 10.4362Z" fill="currentColor" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3ZM12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 8.13401 8.13401 5 12 5Z" fill="currentColor" />
+                    </svg>
+                </a>
+            </p>
+        </div>
     </footer>
+
 </body>
 
 </html>
