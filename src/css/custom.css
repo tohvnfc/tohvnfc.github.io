@@ -16,3 +16,7 @@
 .lato {
     font-family: 'Lato', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}

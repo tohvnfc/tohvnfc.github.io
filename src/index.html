@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body class="bg-gray-100">
+<body>
 
     <header class="fixed top-0 left-0 right-0 bg-white border-b-2">
-        <nav class="container mx-auto uppercase my-1">
+        <nav class="container mx-auto overflow-auto uppercase my-1">
             <ul class="w-max flex flex-wrap items-center cursor-pointer space-grotesk">
                 <li class="px-3 py-2 text-gray-500 font-bold hover:text-black border-b-4 border-transparent hover:border-gray-400">
                     Trang chủ
@@ -37,25 +37,41 @@
         </nav>
     </header>
 
-    <main class="container mx-auto">
-        <div class="h-screen flex flex-col justify-center items-center">
-            <h1 class="capitalize text-center font-bold">
-                <span class="block mb-6 quicksand text-3xl lg:text-4xl text-gray-700 tracking-wide">
-                    Đây là trang web chính thức của
-                </span>
-                <span class="inline-block mb-6 pb-6 merri text-4xl lg:text-5xl
-                text-yellow-700 hover:text-yellow-500 border-b-4 border-yellow-500">
-                    <a href="https://fb.com/TOHVNFC" class="no-underline" title="Ghé thăm trang Facebook nha <3">
-                        The Owl House Vietnam
-                    </a>
-                </span>
-            </h1>
-            
-            <!-- chevron-double-down icon | Heroicons.com -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-9 w-full cursor-move" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
-            </svg>
+    <main>
+        <div class="bg-gray-100">
+            <div class="container mx-auto h-screen flex flex-col justify-center items-center">
+                <h1 class="capitalize text-center font-bold">
+                    <span class="block mb-6 quicksand text-3xl lg:text-4xl text-gray-700 tracking-wide">
+                        Đây là trang web chính thức của
+                    </span>
+                    <span class="inline-block mb-6 pb-6 merri text-4xl lg:text-5xl
+                    text-yellow-700 hover:text-yellow-500 border-b-4 border-yellow-500">
+                        <a href="https://fb.com/TOHVNFC" class="no-underline" title="Ghé thăm trang Facebook nha <3">
+                            The Owl House Vietnam
+                        </a>
+                    </span>
+                </h1>
+                
+                <!-- chevron-double-down icon | Heroicons.com -->
+                <a href="#danh-sach-phim" class="block animate-bounce w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+                    </svg>
+                </a>
+            </div>
         </div>
+
+        <section class="bg-white" id="danh-sach-phim">
+            <div class="container mx-auto">
+                <header class="py-14 lato text-gray-800 text-3xl font-bold text-center capitalize">
+                    Danh sách các tập phim Nhà Cú vietsub
+                </header>
+            </div>
+
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-4 gap-3">
+
+            </div>
+        </section>
     </main>
 
     <footer class="bg-white border-t-2">
