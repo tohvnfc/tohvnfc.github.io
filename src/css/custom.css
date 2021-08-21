@@ -1,5 +1,5 @@
 /* Custom CSS */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&family=Space+Grotesk&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&family=Space+Grotesk&family=Lato&family=Roboto&family=Roboto+Mono&display=swap');
 
 .quicksand {
     font-family: 'Quicksand', sans-serif;
@@ -15,6 +15,14 @@
 
 .lato {
     font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
 }
 
 html {

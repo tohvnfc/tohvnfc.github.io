@@ -13,8 +13,8 @@
     "vite": "^2.5.0"
   },
   "scripts": {
-    "build:tailwind":
-    "tailwindcss build -i src/css/tailwind.css -o css/style.css && cp src/css/custom.css css/custom.css && cp src/img/* img/* && cp src/index.html index.html"
+    "build":
+    "tailwindcss build -i src/css/tailwind.css -o css/style.css"
   },
   "repository": {
     "type": "git",

@@ -10,7 +10,9 @@ module.exports = {
         extend: {},
     },
     variants: {
-        extend: {},
+        extend: {
+            ringWidth: ['hover', 'active'],
+        },
     },
     plugins: [],
 }
