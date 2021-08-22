@@ -4,17 +4,15 @@
 
 npm run build
 
-# Colors
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-NO_CLR='\033[0m'
-
 # Needed files and folder
-CUSTOM_CSS_SRC="src/css/custom.css"
-CUSTOM_CSS="css/custom.css"
-
 INDEX_SRC="src/index.html"
 INDEX="index.html"
+
+COMMON_SRC="src/common"
+COMMON_DIR="common"
+
+CUSTOM_CSS_SRC="src/css/custom.css"
+CUSTOM_CSS="css/custom.css"
 
 IMG_SRC_DIR="src/img"
 IMG_DIR="img/"
@@ -39,6 +37,14 @@ fi
 if [ -d $INDEX_SRC_DIR ] && [ -d $IMG_DIR ]
 then
     cp -r src/img/* img
+else
+    echo "ERR: Missing folders"
+fi
+
+# Copy common htmls
+if [ -d $COMMON_SRC ] && [ -d $COMMON_DIR ]
+then
+    cp -r src/common/* common
 else
     echo "ERR: Missing folders"
 fi
