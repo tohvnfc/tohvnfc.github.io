@@ -9,10 +9,6 @@ module.exports = {
     theme: {
         extend: {},
     },
-    variants: {
-        extend: {
-            ringWidth: ['hover', 'active'],
-        },
-    },
+    variants: {},
     plugins: [],
 }
