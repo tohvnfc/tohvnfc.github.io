@@ -17,20 +17,26 @@
     <header class="fixed z-10 top-0 left-0 right-0 bg-white border-b-2">
         <nav class="container mx-auto overflow-auto uppercase my-1">
             <ul class="w-max flex flex-wrap items-center cursor-pointer space-grotesk">
-                <li class="px-3 py-2 text-gray-500 font-bold hover:text-black border-b-4 border-transparent hover:border-gray-400">
+                <li class="border-b-4 border-transparent hover:border-gray-400
+                px-3 py-2 text-gray-500 font-bold hover:text-black">
                     Trang chủ
                 </li>
-                <li class="px-3 py-2 text-gray-500 font-bold hover:text-black border-b-4 border-transparent hover:border-gray-400">
+                <li class="border-b-4 border-transparent hover:border-gray-400
+                px-3 py-2 text-gray-500 font-bold hover:text-black">
                     Giới thiệu
                 </li>
-                <li class="px-3 py-2 font-bold border-b-4 border-transparent">|</li>
-                <li class="px-3 py-2 font-bold border-b-4 border-transparent hover:border-yellow-500">
+                <li class="border-b-4 border-transparent
+                px-3 py-2 font-bold">|</li>
+                <li class="border-b-4 border-transparent hover:border-yellow-500
+                px-3 py-2 font-bold">
                     Mùa 1
                 </li>
-                <li class="px-3 py-2 font-bold border-b-4 border-transparent hover:border-yellow-500">
+                <li class="border-b-4 border-transparent hover:border-yellow-500
+                px-3 py-2 font-bold">
                     Mùa 2
                 </li>
-                <li class="px-3 py-2 font-bold border-b-4 border-transparent hover:border-yellow-500">
+                <li class="border-b-4 border-transparent hover:border-yellow-500
+                px-3 py-2 font-bold">
                     Mùa 3
                 </li>
             </ul>
@@ -79,7 +85,7 @@
                     </h2>
                 </div>
                 
-                <div class="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-4 gap-4
+                <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4
                 mx-6 lg:mx-20 xl:mx-10 2xl:mx-0">
                     <figure class="sm:transition-transform sm:transform sm:hover:scale-105
                     relative flex flex-col rounded-md shadow-2xl">
@@ -94,15 +100,14 @@
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Possimus fuga laboriosam enim animi deserunt ipsam itaque beatae suscipit expedita quam,
-                                odio eveniet distinctio officia reprehenderit libero asperiores nostrum molestias inventore.
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Nơi huyền thoại bắt đầu 🪄
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/tohvnfcS01E01" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -110,9 +115,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/JuJRUIpK" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -123,7 +129,7 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
@@ -134,19 +140,20 @@
     
                         <figcaption class="p-4 h-full">
                             <h1 class="roboto font-bold text-sm text-gray-500 uppercase">
-                                Mùa 1 tập 1:
+                                Mùa 1 tập 2:
                                 <span class="block merri text-lg font-bold text-yellow-700 capitalize">
-                                    A Lying Witch and a Warden
+                                    Witches Before Wizards
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Nơi huyền thoại bắt đầu 🪄
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Muốn làm thì phải có ăn, thích giàu nhanh thì đi gặp <s>thầy bói</s> pháp sư đa cấp 🧙‍♂️
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/tohvnfcS01E02" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -154,9 +161,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/kmJj2SoK" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -167,7 +175,7 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
@@ -178,19 +186,22 @@
     
                         <figcaption class="p-4 h-full">
                             <h1 class="roboto font-bold text-sm text-gray-500 uppercase">
-                                Mùa 1 tập 1:
+                                Mùa 1 tập 3:
                                 <span class="block merri text-lg font-bold text-yellow-700 capitalize">
-                                    A Lying Witch and a Warden
+                                    I Was a Teenage Abomination
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Nơi huyền thoại bắt đầu 🪄
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Luz muốn đi học nên lẻn vào trường người ta luôn.
+                                Hiếu học ghê 🤓
+                                Và đã có địch thủ đáng ghét đầu tiên xuất hiện =))
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/tohvnfcS01E03" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -198,9 +209,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/Bm5kVbxQ" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -211,13 +223,14 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
                     <div class="relative flex justify-center items-center rounded-md">
                         <a href="common/season1.html"
-                        class="border-4 border-gray-400 hover:border-yellow-500 rounded-md py-3 px-9 hover:bg-yellow-500 lato text-xl uppercase hover:text-white">
+                        class="border-4 border-gray-400 hover:border-yellow-500 rounded-md
+                        py-3 px-9 hover:bg-yellow-500 lato text-xl uppercase hover:text-white">
                             Xem thêm
                         </a>
                     </div>
@@ -250,15 +263,14 @@
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Possimus fuga laboriosam enim animi deserunt ipsam itaque beatae suscipit expedita quam,
-                                odio eveniet distinctio officia reprehenderit libero asperiores nostrum molestias inventore.
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Luz thấy bản thân có lỗi nên quyết định tự mình đi kiếm tiền nuôi cả nhà
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/TheowlhouseS02E01" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -266,9 +278,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/ArokhZyL" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -279,7 +292,7 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
@@ -290,19 +303,21 @@
     
                         <figcaption class="p-4 h-full">
                             <h1 class="roboto font-bold text-sm text-gray-500 uppercase">
-                                Mùa 2 tập 1:
+                                Mùa 2 tập 2:
                                 <span class="block merri text-lg font-bold text-yellow-700 capitalize">
-                                    Separate Tides
+                                    Escaping Expulsion
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Nơi huyền thoại bắt đầu 🪄
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Bố mẹ Amity không có gì ngoài quyền lực và tiền lại đi sân si làm ba đứa trẻ vô học 😠
+                                Amity vì crush và tình bạn liền ra tay cứu giúp
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/TheowlhouseS02E02" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -310,9 +325,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/EqhhwKJT" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -323,7 +339,7 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
@@ -334,19 +350,20 @@
     
                         <figcaption class="p-4 h-full">
                             <h1 class="roboto font-bold text-sm text-gray-500 uppercase">
-                                Mùa 2 tập 1:
+                                Mùa 2 tập 3:
                                 <span class="block merri text-lg font-bold text-yellow-700 capitalize">
-                                    Separate Tides
+                                    Echoes of the Past
                                 </span>
                             </h1>
     
-                            <p class="py-3 quicksand font-semibold text-gray-700">
-                                Nơi huyền thoại bắt đầu 🪄
+                            <p class="py-3 quicksand font-semibold text-gray-700 text-justify">
+                                Tưởng King chỉ là vua 🤡 nhưng không ngờ cậu ấy lại đáng thương đến vậy 😭
                             </p>
                         </figcaption>
                         
                         <div class="px-4 pb-4 flex flex-col">
-                            <button class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
+                            <a href="https://bit.ly/TheowlhouseS02E03" target="_blank"
+                            class="mb-1 p-2 w-full flex justify-center items-center rounded-md bg-blue-500 text-white hover:opacity-80 ">
                                 <!-- Google Drive SVG Icon: https://www.flaticon.com/free-icon/google-drive_2991248 -->
                                 <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"
                                 class="h-4 w-4 fill-current">
@@ -354,9 +371,10 @@
                                     <path d="m154.034 75.947-152.011 262.538c-2.622 4.512-2.695 10.049-.22 14.648l64.805 120c2.578 4.775 7.544 7.793 12.979 7.866h.22c5.347 0 10.313-2.856 12.993-7.5l145.494-251.757z"/><path d="m509.88 338.31c-2.695-4.526-7.588-7.31-12.876-7.31h-286.41l-86.678 150h308.284c5.508 0 10.576-3.018 13.198-7.866l64.805-120c2.504-4.658 2.387-10.283-.323-14.824z"/>
                                 </svg>
                                 <p class="pl-2 roboto-mono font-semibold text-sm">Google Drive</p>
-                            </button>
+                            </a>
     
-                            <button class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
+                            <a href="https://mega.nz/folder/Qmx0mBjI#9auR8pHfWTlQslsVVt46QQ/file/17gwEQLY" target="_blank"
+                            class="p-2 w-full flex justify-center items-center rounded-md bg-red-500 text-white hover:opacity-80">
                                 <!-- MEGA SVG Icon: https://www.flaticon.com/free-icon/mega_873133 -->
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
@@ -367,13 +385,14 @@
                                     <polygon style="fill:#EF4444;" points="188.5,151 128.5,151 128.5,361 188.5,361 188.5,235.853 256,303.354 256,218.5 "/>
                                 </svg>
                                 <p class="pl-1 roboto-mono font-semibold text-sm">MEGA</p>
-                            </button>
+                            </a>
                         </div>
                     </figure>
     
                     <div class="relative flex justify-center items-center rounded-md">
                         <a href="common/season2.html"
-                        class="border-4 border-gray-400 hover:border-yellow-500 rounded-md py-3 px-9 hover:bg-yellow-500 lato text-xl uppercase hover:text-white">
+                        class="border-4 border-gray-400 hover:border-yellow-500 rounded-md
+                        py-3 px-9 hover:bg-yellow-500 lato text-xl uppercase hover:text-white">
                             Xem thêm
                         </a>
                     </div>
@@ -386,8 +405,8 @@
     </main>
 
     <footer class="bg-gray-800 border-t-2">
-        <div class="container mx-auto py-5 flex justify-evenly items-center">
-            <div class="font-sans fill-current ">
+        <div class="container mx-auto w-max sm:w-full flex flex-col sm:flex-row sm:justify-evenly items-start">
+            <div class="pt-5 font-sans fill-current ">
                 <div class="mb-2 font-bold text-white uppercase">
                     Mạng xã hội
                 </div>
@@ -397,7 +416,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
-                    <a href="https://github.com/tohvnfc/tohvnfc.github.io">
+                    <a href="https://github.com/tohvnfc/tohvnfc.github.io" target="_blank">
                         Github
                     </a>
                 </div>
@@ -407,24 +426,34 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                     </svg>
-                    <a href="https://fb.com/TOHVNFC">
+                    <a href="https://fb.com/TOHVNFC" target="_blank">
                         Facebook
+                    </a>
+                </div>
+
+                <!-- Facebook icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center text-white sm:text-gray-400 hover:text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <a href="https://fb.com/groups/TheOwlHouseVNFC" target="_blank">
+                        Nhóm Facebook
                     </a>
                 </div>
             </div>
 
-            <div class="font-sans fill-current">
+            <div class="pt-5 font-sans fill-current">
                 <div class="mb-2 font-bold uppercase text-white">
-                    Mạng xã hội
+                    Mình cũng làm ở
                 </div>
 
-                <!-- Github icon: https://icons.getbootstrap.com/icons/github -->
-                <div class="w-full flex flex-row items-center text-white sm:text-gray-400 hover:text-white">
+                <!-- Facebook icon: https://icons.getbootstrap.com/icons/facebook -->
+                <div class="w-full flex flex-row items-center text-white sm:text-gray-400 hover:text-blue-700">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                     </svg>
-                    <a href="https://github.com/tohvnfc/tohvnfc.github.io">
-                        Github
+                    <a href="https://fb.com/Susiethecatwitch" target="_blank">
+                        Mèo phù thủy Susie
                     </a>
                 </div>
 
@@ -433,14 +462,14 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                     </svg>
-                    <a href="https://fb.com/TOHVNFC">
-                        Facebook
+                    <a href="https://fb.com/HildaVNFC2" target="_blank">
+                        Hilda The Series Vietnam #2
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="text-center pb-2 text-white">
+        <div class="text-center py-5 text-white">
             <p class="lato">
                 Trang web và bản dịch phim thuộc về
                 <a href="https://fb.com/TOHVNFC" class="flex sm:inline-flex justify-center items-center font-bold hover:text-yellow-600">
