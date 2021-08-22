@@ -7,14 +7,13 @@
     "fsevents": "^2.3.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.2",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7",
     "vite": "^2.5.0"
   },
   "scripts": {
-    "build":
-    "tailwindcss build -i src/css/tailwind.css -o css/style.css"
+    "build": "tailwindcss build -i src/css/tailwind.css -o css/style.css"
   },
   "repository": {
     "type": "git",
